@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!--/*llamando a la clase css*/-->
+  <!--/*al copiar el limk de css de bootstrap copiarlo primero siempre debido a que html lee de arriba hacia a bajo*/-->
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Recetas Faciles</title>
+</head>
+<body>
+  <!--/*Aqui empieza el navbar*/-->
+   <nav class="fadeInDown">
+    <!--/*para los options lado izquierdo*/-->
+     <div class="nav_options2">
+       <ul>
+         <li><a href="#">Entra</a></li>
+         <li><a href="#" style="color:black;cursor:none;">o</a></li>
+         <li><a href="#">Regístrate </a></li>
+       </ul>
+     </div>
+       <!--/*para el logo*/-->
+       <div class="logo_image">
+        <a href="menu_principal.html"><img src="images\logo_recetas.jpeg"></a>
+       </div>
+     <!--/*para las optiones lado derecho*/-->
+       <div class="nav_options">
+         <ul>
+           <li><a href="#">Recetas</a></li>
+           <li><a href="#">Utensilios</a></li>
+         </ul>
+       </div>
+   </nav>
+
+   <div class="social-bar">
+      <a href="https://www.facebook.com/RecetasEurus" class="icon icon-facebook" target="_blank"><img src="images\face.png" width="30px" height="30px"></a>
+      <a href="#" class="icon icon-twitter" target="_blank"><img src="images\twitter.png" width="30px" height="30px"></a>
+      <a href="#" class="icon icon-youtube" target="_blank"><img src="images\youtube.png" width="30px" height="30px"></a>
+      <a href="#" class="icon icon-instagram" target="_blank"><img src="images\instagram.png" width="30px" height="30px"></a>
+    </div>
+
+ <!--/*Aca va el texto de la pagina*/-->
+ <div class="main_section">
+   <div class="fadeIn"><h1>"La felicidad esta hecha en casa"</h1></div>
+ </div>
+ <!--/*llamando a una imagen de fondo*/ -->
+ <div class="products">
+ <!--/*contenido de las tarjetas*/-->
+ <div class="product fadeInUp">
+   <div class="content">
+   <!--/*Imagen del contenedor*/-->
+    <div class="img_content"><img src="images/receta1.jpg" alt="" width="200px" height="170px"></div>
+     <h1>Pechugas de pollo picantes al limón</h1>
+    <p>Receta fácil que puedes transformar en ensalada.</p>
+    <!--/*Debido a que el button debe estar dentro de un <form> podemos simular para direccionarlo colocandolo dentro de un <a>*/-->
+   <a href=""><button type="button" name="button" class="main_button">Lo quiero preparar</button></a>
+  </div>
+      </div>
+   <div class="product fadeInUp">
+    <div class="content">
+   <!--/*Imagen del contenedor*/-->
+      <div class="img_content"><img src="images/receta2.jpg" alt="" width="200px" height="170px"></div>
+       <h1>Magro de cerdo al ajillo con brócoli</h1>
+       <p>La receta completa y saludable para llenarte de energía.</p>
+       <a href=""><button type="button" name="button" class="main_button">Lo quiero preparar</button></a>
+      </div>
+   </div>
+   <div class="product fadeInUp">
+     <div class="content">
+   <!--/*Imagen del contenedor*/-->
+       <div class="img_content"><img src="images/receta3.jpg" alt="" width="200px" height="170px"></div>
+       <h1>Prepare filetes rusos perfectos</h1>
+       <p>Receta fácil y lista en poco más de media hora.</p>
+       <a href=""><button type="button" name="button" class="main_button">Lo quiero preparar</button></a>
+      </div>
+    </div>
+   <div class="product fadeInUp">
+     <div class="content">
+   <!--/*Imagen del contenedor*/-->
+       <div class="img_content"><img src="images/receta4.jpg" alt="" width="200px" height="170px"></div>
+       <h1>Receta de rape con salsa americana</h1>
+       <p>Receta fácil, rápida y más saludable durante la cuarentena.</p>
+       <a href=""><button type="button" name="button" class="main_button">Lo quiero preparar</button></a>
+     </div>
+   </div>
+ </div>
+ <!--/*Esilos de barra de actualidades*/-->
+ <div class="barra_actualidad">
+   <h1>Actualidades</h1>
+ </div>
+ <!--/*Descripcion de los detalles*/-->
+ <div class="details">
+    <div class="detail_box">
+       <div class="content2">
+          <div class="img_class"><img src="images/curiosidades2.jpg"></div>
+          <h2>La Comunidad de Madrid y Valencia decretan el cierre obligatorio de bares y restaurantes</h2>
+       </div>
+     </div>
+     <div class="detail_box">
+        <div class="content2">
+           <div class="img_class"><img src="images/curiosidades3.jpg"></div>
+           <h2>Las empresas de comida a domicilio se preparan para afrontar el coronavirus</h2>
+        </div>
+      </div>
+      <div class="detail_box">
+         <div class="content2">
+            <div class="img_class"><img src="images/curiosidades4.jpg"></div>
+            <h2>La hostelería se apoya en Makro para pedir ayudas ante una situación catastrófica</h2>
+         </div>
+       </div>
+ </div>
+ <!-- /*footer (el pie de pagina))*/ -->
+ <footer class="footer_modulo">
+ <a href="#">Terminos y Condiciones</a>
+ <a href="mailto:aldojulca69@gmail.com">aldojulca69@gmail.com</a>
+ </footer>
+     <!-- /*llmando a la clase de js*/ -->
+     <script src="scripts/script.js"></script>
+</body>
+</html>
